@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport" content="width=device-width, initial-scale = 1.0">
+<link rel="stylesheet" href="mainbase.css"/>
+<title>Test Sestem Exam's of AUCA</title>
+</head>
+<body>
+
+   
+    <div id="navbar">
+      <img src="C:\Users\Cronix\Desktop\Test\Source\7.png" alt="Avatar" class="avatar">
+      
+       <a href="settings.html">Settings</a>
+       <a href="mytests.html">My Tests</a>
+       <a class="active" href="javascript:void(0)">Home</a>
+    </div>
+
+    <div class="mainbox">
+
+      <div class="card">
+        <img src="C:\Users\Cronix\Desktop\Test\Source\6.jpg" alt="Avatar" style="width:100%">
+        <div class="container">
+          <h3><b>Scored Qiuz</b></h3>
+          <p1>How well do you know ... ?</p1>
+        </div>
+        <center>
+       <a href = "Quiz.html"> <button  class="btn">Create a quiz</button></a>
+      </center>
+    </div>
+      <div class="card">
+        <img src="C:\Users\Cronix\Desktop\Test\Source\5.jpg" alt="Avatar" style="width:100%">
+        <div class="container">
+          <h3><b>Scored Qiuz</b></h3>
+          <p1>Which superhero are you ... ?</p1>
+        </div>
+        <center>
+      <a href = "Servey.html" ><button href="something" class="btn">Create a survey</button></a>
+      </center>
+      </div>
+  </div>
+
+  <script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+</html>
